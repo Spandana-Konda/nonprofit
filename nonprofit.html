@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Non-Profit Organization</title>
+  <style>
+     
+     .buttons-container {
+            text-align: center;
+        }
+        .buttons-container button {
+            display: block; 
+            margin: 10px auto; /* Vertical spacing and horizontally center */
+            background-color: #4CAF50; 
+            color: white;
+            padding: 15px 32px; /* Top & Bottom | Left & Right padding */
+            font-size: 16px; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 5px; /* Rounded corners */
+        }
+        .buttons-container button:hover {
+            background-color: #45a049; 
+        }
+
+    body{
+      align-items: center;
+    }
+    footer {
+            text-align: center;
+            padding: 20px; 
+            margin-top: 20px;
+        }
+        address {
+            display: inline-block; 
+            text-align: left; 
+            margin: 0 auto; 
+            line-height: 1.6;
+        }
+
+    h1{
+      text-align:center;
+      color:#0f6112;
+      font-size: 50px;
+    }
+    button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.blue {
+    background-color: #3498db;
+}
+
+button.green {
+    background-color: #2ecc71;
+}
+
+button.orange {
+   background-color: orangered;
+}
+  </style>
+</head>
+<body bgcolor="red" align-items="center">
+  <h1 class="center">ANIMELIA TRUST</h1>
+  <p style="color: blue; font-size: 20px; text-align: center;">
+    Saving animals means protecting animals as well as their habitats. Most animals have become endangered due to the destruction of their habitats. So if you want your next generations to see some exotic animals, it's time you step into your role and do what is necessary to save animals.The role of Animelia trust is:
+  </p>
+
+
+  <div class="buttons-container">
+    <button id="mybutton1">OUR MISSION</button>
+    <p id="myPara1"></p>
+    <button id="mybutton2">PROGRAMS</button>
+    <p id="myPara2"></p>
+
+    <button id="mybutton3">EVENTS</button>
+    <p id="myPara3"></p> 
+
+</div>
+  
+  
+  
+
+<script>
+  document.getElementById("mybutton1").addEventListener("click", function() {
+    var myPara = document.getElementById("myPara1");
+    myPara.innerText = "To rescue, rehabilitate and rehome animals in crisis, ensure healthy pets through education, advocacy and affordable services, and inspire a community where the animal-human bond is celebrated and nurtured.";
+    // Set font color
+    myPara.style.color = "yellow"; // Example: Changes the font color to blue
+    // Set font size
+    myPara.style.fontSize = "18px"; // Example: Sets the font size to 18 pixels
+    // Center align the text
+    myPara.style.textAlign = "center"; // Aligns the text to the center
+  });
+</script>
+
+
+<script>
+  
+      document.getElementById("mybutton2").addEventListener("click", function() {
+          document.getElementById("myPara2").innerText = "• Frequent health checkup\n• Vaccination programs for animals\n• Rescue centres and shelter set ups for animals";
+      
+  
+    myPara2.style.color = "yellow";
+    myPara2.style.fontSize = "18px";
+    myPara2.style.textAlign = "center"; 
+  });
+</script>
+
+
+
+
+<script>
+  
+  document.getElementById("mybutton3").addEventListener("click", function() {
+      document.getElementById("myPara3").innerText = "• Event to raise Awareness in society to protect Animals\n• Increase funds for the Trust";
+
+myPara3.style.color = "yellow";
+myPara3.style.fontSize = "18px";
+myPara.style.textAlign = "center"; 
+});
+</script>
+<hr>
+
+<footer>
+  <address>
+      <strong>Anemelia Trust,</strong><br>
+      Gachibowli, <br>
+      Hyderabad, Telangana,500033 <br>
+      <abbr title="Phone">Phn:</abbr> (123) 456-7890<br>
+      <a href="mailto:animelia@gmail.com">anemalia@gmail.com</a>
+  </address>
+</footer>
+
+
+
+</body>
+</html>
